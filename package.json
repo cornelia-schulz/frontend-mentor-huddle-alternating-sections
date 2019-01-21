@@ -1,0 +1,40 @@
+{
+  "name": "frontend-mentor-huddle-alternating-sections",
+  "version": "1.0.0",
+  "description": "Frontend and Vue practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.dev.js",
+    "dev": "webpack-dev-server --config webpack.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cornelia-schulz/frontend-mentor-huddle-alternating-sections.git"
+  },
+  "keywords": [
+    "vue",
+    "frontend",
+    "scss"
+  ],
+  "author": "Cornelia Schulz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cornelia-schulz/frontend-mentor-huddle-alternating-sections/issues"
+  },
+  "homepage": "https://github.com/cornelia-schulz/frontend-mentor-huddle-alternating-sections#readme",
+  "dependencies": {
+    "vue": "^2.5.22",
+    "vue-router": "^3.0.2"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "vue-loader": "^15.5.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.22",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
