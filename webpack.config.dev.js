@@ -9,22 +9,23 @@ module.exports = {
     './src/app.js'
   ],
 
-  devServer: {
-      hot: true,
-      watchOptions: {
-          poll: true
-      }
-  },
-
   module: {
     rules: [
       {
         test: /\.vue$/,
         use: 'vue-loader'
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          'vue-style-loader',
+          'css-loader',
+          'sass-loader'
+        ]
       }
     ]
   },
-  
+
   plugins: [
     new VueLoaderPlugin(),
     new HtmlWebpackPlugin({
