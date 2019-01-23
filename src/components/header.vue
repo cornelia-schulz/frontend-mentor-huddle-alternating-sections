@@ -1,3 +1,5 @@
+
+
 <template>
   <h1>Hello {{ name }}</h1>
 </template>
@@ -11,3 +13,7 @@ export default {
   }
 }
 </script>
+
+<style lang='scss'>
+  @import '../assets/css/app.scss'
+</style>

@@ -1,4 +1,4 @@
-import '../assets/app.scss'
+import '../assets/css/app.scss'
 
 <template>
   <div class="full-width center-content">
