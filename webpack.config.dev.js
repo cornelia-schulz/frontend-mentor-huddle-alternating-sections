@@ -35,6 +35,10 @@ module.exports = {
       {
         test: /\.js$/,
         use: 'babel-loader'
+      },
+      {
+        test: /\.svg$/,
+        loader: 'vue-svg-loader',
       }
     ]
   },
