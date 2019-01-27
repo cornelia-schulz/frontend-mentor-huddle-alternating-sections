@@ -12,7 +12,12 @@ $weightMedium: 600;
 
 * {
   font-family: $contentFont;
-  font-size: 14px;
+  font-size: 18px;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
 }
 
   header {
@@ -27,5 +32,35 @@ $weightMedium: 600;
       border: 1px solid $primaryColour;
       border-radius: 50px;
       padding: 0 2%;
+    }
+  }
+
+  h1 {
+    font-family: $headerFont;
+    font-size: 3.5em;
+  }
+
+  .blurb {
+    width: 100%;
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    p {
+      width: 33.33%;
+      margin: 0 auto;
+      font-size: 20px;
+      padding: 2em 0;
+    }
+
+    button {
+      width: 20%;
+      background-color: $primaryColour;
+      color: $neutralBlue;
+      line-height: 3em;
+      border: none;
+      border-radius: 50px;
+      margin-bottom: 4em;
     }
   }

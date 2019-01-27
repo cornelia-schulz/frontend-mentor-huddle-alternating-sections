@@ -12,12 +12,6 @@ export default {
   components: {
     Logo
   },
-  props: {
-    name: {
-      type: String,
-      required: true
-    }
-  }
 }
 </script>
 

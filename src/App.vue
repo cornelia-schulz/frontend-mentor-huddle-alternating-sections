@@ -1,16 +1,19 @@
 import '../assets/css/app.scss'
 
 <template>
-  <div class="full-width center-content">
-    <hello-component name="Conny" />
+  <div class="container">
+    <Header />
+    <Blurb />
   </div>
 </template>
 
 <script>
-import HelloComponent from './components/header.vue'
+import Header from './components/header.vue'
+import Blurb from './components/blurb.vue'
 export default {
   components: {
-    HelloComponent
+    Header,
+    Blurb
   }
 }
 </script>
