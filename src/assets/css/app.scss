@@ -1,14 +1,31 @@
+// Colour variables
+$primaryColour: hsl(322, 100%, 66%);
+$neutralCyan: hsl(192, 100%, 9%);
+$neutralBlue: hsl(207, 100%, 98%);
 
-.full-width {
-    width: 100%;
-  }
-  .center-content {
+// Fonts
+$headerFont: 'Poppins', sans-serif;
+$contentFont: 'Open Sans', sans-serif;
+$weightBold: 700;
+$weightLight: 400;
+$weightMedium: 600;
+
+* {
+  font-family: $contentFont;
+  font-size: 14px;
+}
+
+  header {
+    width: 90%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    justify-content: space-between;
+    margin: 0 auto;
 
-  h1 {
-    color: pink;
-    background-color: blue;
+    button {
+      color: $primaryColour;
+      background-color: transparent;
+      border: 1px solid $primaryColour;
+      border-radius: 50px;
+      padding: 0 2%;
+    }
   }

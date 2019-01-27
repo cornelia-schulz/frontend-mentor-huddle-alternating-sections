@@ -1,17 +1,16 @@
 
 <template>
   <header>
-    <h1>Hello {{ name }}</h1>
-    <br>
-    <ImageMe />
+    <Logo />
+    <button>Try It Free</button>
   </header>
 </template>
 
 <script>
-import ImageMe from '../../static/img/icon-communities.svg'
+import Logo from '../../static/img/logo.svg'
 export default {
   components: {
-    ImageMe
+    Logo
   },
   props: {
     name: {
