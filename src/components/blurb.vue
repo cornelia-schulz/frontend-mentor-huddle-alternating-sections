@@ -9,14 +9,26 @@
       <div class="left">
         <CommunityImage />
         <p>
-        <span class="figure">1.4k+</span><br>
-        <span class="figure-description">Communities Formed</span></p>
+          <span class="figure">
+            1.4k+
+          </span>
+          <br>
+          <span class="figure-description">
+            Communities Formed
+          </span>
+        </p>
       </div>
       <div class="right">
         <SpeechImage />
         <p>
-        <span class="figure">2.7m+</span><br>
-        <span class="figure-description">Messages Sent</span></p>
+          <span class="figure">
+            2.7m+
+          </span>
+          <br>
+          <span class="figure-description">
+            Messages Sent
+          </span>
+        </p>
       </div>
     </div>
   </section>
