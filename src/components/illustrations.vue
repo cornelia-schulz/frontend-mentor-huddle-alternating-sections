@@ -30,6 +30,7 @@ import GrowTogether from '../../static/img/illustration-grow-together.svg'
 import FlowingConversation from '../../static/img/illustration-flowing-conversation.svg'
 import YourUsers from '../../static/img/illustration-your-users.svg'
 export default {
+  name: 'Illustrations',
   components: {
     GrowTogether,
     FlowingConversation,

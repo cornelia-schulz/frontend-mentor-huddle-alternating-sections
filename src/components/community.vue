@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'community'
+  name: 'Community'
 }
 </script>
 

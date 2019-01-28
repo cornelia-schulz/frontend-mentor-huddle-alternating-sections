@@ -9,7 +9,7 @@
 <script>
 import Logo from '../../static/img/logo.svg'
 export default {
-  name: 'header',
+  name: 'Header',
   components: {
     Logo
   }

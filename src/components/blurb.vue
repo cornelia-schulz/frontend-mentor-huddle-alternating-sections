@@ -39,6 +39,7 @@ import CentreImage from '../../static/img/screen-mockups.svg'
 import CommunityImage from '../../static/img/icon-communities.svg'
 import SpeechImage from '../../static/img/icon-messages.svg'
 export default {
+  name: 'Blurb',
   components: {
     CentreImage,
     CommunityImage,

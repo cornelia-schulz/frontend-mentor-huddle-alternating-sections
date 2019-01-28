@@ -6,6 +6,7 @@ import '../assets/css/app.scss'
     <Blurb />
     <Illustrations />
     <Community />
+    <Footer />
   </div>
 </template>
 
@@ -14,12 +15,15 @@ import Header from './components/header.vue'
 import Blurb from './components/blurb.vue'
 import Illustrations from './components/illustrations.vue'
 import Community from './components/community.vue'
+import Footer from './components/footer.vue'
 export default {
+  name: 'App',
   components: {
     Header,
     Blurb,
     Illustrations,
-    Community
+    Community,
+    Footer
   }
 }
 </script>
