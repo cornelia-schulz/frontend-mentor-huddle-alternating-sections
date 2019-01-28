@@ -11,7 +11,7 @@ import Logo from '../../static/img/logo.svg'
 export default {
   components: {
     Logo
-  },
+  }
 }
 </script>
 

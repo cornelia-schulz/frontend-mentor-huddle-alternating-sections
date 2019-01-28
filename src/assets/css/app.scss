@@ -64,3 +64,50 @@ $weightMedium: 600;
       margin-bottom: 4em;
     }
   }
+
+  .figures {
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 5em;
+    display: flex;
+    justify-content: space-between;
+
+    .right, .left {
+      width: 35%;
+      text-align: left;
+      color: $neutralCyan;
+      margin: 0;
+
+      p {
+        margin: 0;
+        width: 100%;
+        padding: 0;
+      }
+
+      .figure-description {
+        padding-left: 20%;
+      }
+
+      g {
+        fill: $primaryColour;
+      }
+    }
+
+    .left {
+      padding-left: 5em;
+
+      .figure-description {
+        padding-left: 2%;
+      }
+    }
+
+    .figure {
+      font-size: 4.5em;
+      font-weight: 700;
+    }
+
+  }
+
+  // .left g{
+  //   fill:red;
+  // }
