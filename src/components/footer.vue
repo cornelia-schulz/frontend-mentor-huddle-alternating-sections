@@ -6,12 +6,12 @@
         <Logo class="logo" />
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.</p>
         <div class="contact">
-          <Phone />
-          <p>Phone: +1-543-123-4567</p>
+          <Phone class="icon" />
+          <p> Phone: +1-543-123-4567</p>
         </div>
         <div class="contact">
-          <Email />
-          <p>example@huddle.com</p>
+          <Email class="icon" />
+          <p> example@huddle.com</p>
         </div>
       </div>
       <div class="newsletter">

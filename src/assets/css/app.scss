@@ -227,12 +227,25 @@ $weightMedium: 600;
       width: 30%;
       margin-left: 10%;
 
+      .logo {
+        padding-bottom: 1em;
+      }
+
       .logo g {
         fill: $neutralBlue;
       }
-      
+
       .contact {
         display: flex;
+        line-height: 1em;
+
+        .icon {
+          padding-right: 3%;
+        }
+      }
+
+      p{ 
+        padding-bottom: 1em;
       }
     }
 
@@ -240,5 +253,12 @@ $weightMedium: 600;
       width: 30%;
       margin-right: 10%;
 
+      h3 {
+        padding-bottom: 2em;
+      }
+
+      p {
+        padding-bottom: 1em;
+      }
     }
   }
