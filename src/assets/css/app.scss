@@ -260,5 +260,18 @@ $weightMedium: 600;
       p {
         padding-bottom: 1em;
       }
+
+      input {
+        border-radius: 5px;
+        width: 65%;
+      }
+
+      button {
+        background-color: $primaryColour;
+        color: $neutralBlue;
+        border-radius: 5px;
+        border: 1px solid $primaryColour;
+        width: 30%;
+      }
     }
   }
