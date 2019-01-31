@@ -1,6 +1,7 @@
 
 <template>
   <section class="illustrations">
+    <div class="grow-top" />
     <article class="grow-together">
       <div class="illustration-text">
         <h2>Grow Together</h2>
@@ -8,6 +9,7 @@
       </div>
       <GrowTogether class="illustration" />
     </article>
+    <div class="grow-bottom" />
     <article class="flowing-conversation">
       <FlowingConversation />
       <div class="illustration-text">
@@ -15,6 +17,7 @@
         <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
       </div>
     </article>
+    <div class="users-top" />
     <article class="your-users">
       <div class="illustration-text">
         <h2>Your Users</h2>
@@ -22,6 +25,7 @@
       </div>
       <YourUsers />
     </article>
+    <div class="users-bottom" />
   </section>
 </template>
 

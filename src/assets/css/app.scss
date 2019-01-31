@@ -12,7 +12,7 @@ $weightMedium: 600;
 
 *, body {
   font-family: $contentFont;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .container {
@@ -33,6 +33,7 @@ $weightMedium: 600;
       border: 1px solid $primaryColour;
       border-radius: 50px;
       padding: 0 2%;
+      width: max-content;
     }
   }
 
@@ -43,7 +44,7 @@ $weightMedium: 600;
 
   h2 {
     font-family: $headerFont;
-    font-size: 3em;
+    font-size: 2em;
   }
 
   .blurb {
@@ -54,7 +55,7 @@ $weightMedium: 600;
     }
 
     p {
-      width: 33.33%;
+      width: 42%;
       margin: 0 auto;
       font-size: 20px;
       padding: 2em 0;
@@ -62,13 +63,15 @@ $weightMedium: 600;
     }
 
     button {
-      width: 20%;
+      width: 25%;
       background-color: $primaryColour;
       color: $neutralBlue;
-      line-height: 3em;
+      line-height: 4.5em;
       border: none;
       border-radius: 50px;
       margin-bottom: 4em;
+      font-weight: $weightBold;
+      margin-bottom: 7em;
     }
   }
 
@@ -102,7 +105,6 @@ $weightMedium: 600;
     }
 
     .left {
-      padding-left: 5em;
 
       .figure-description {
         padding-left: 2%;
@@ -115,25 +117,66 @@ $weightMedium: 600;
     }
   }
 
+  .illustrations {
+
+    .grow-top {
+      width: 90%;
+      background-image: url('data:image/svg+xml;charset=utf-8,<svg width="1440" height="165" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h1440v165H0z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><g mask="url(#b)" fill="#F6FBFF"><path d="M0 127.6C152.937 41.92 298.933 25.782 437.988 79.187c208.583 80.107 457.536 53.405 594.167 0C1168.785 25.782 1172.696-39.335 1440 30.224c267.304 69.56 0 698.192 0 698.192s-211.887 128.179-591.858 64.09C594.828 749.779 312.114 765.996 0 841.156V127.6z"/></g></g></svg>');
+      background-repeat: no-repeat;
+      background-size:cover;
+      height: 165px;
+      margin: 0 auto;
+    }
+
+    .grow-bottom {
+      width: 90%;
+      background-image: url('data:image/svg+xml;charset=utf-8,<svg width="1440" height="139" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h1440v139H0z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><g mask="url(#b)"><path d="M0-574.4c152.937-85.68 298.933-101.818 437.988-48.413 208.583 80.107 457.536 53.405 594.167 0 136.63-53.405 140.541-118.522 407.845-48.963 267.304 69.56 0 698.192 0 698.192s-211.887 128.179-591.858 64.09C594.828 47.779 312.114 63.996 0 139.156V-574.4z" fill="#F6FBFF"/><path d="M750-537h560V23H750z"/></g></g></svg>');
+      background-repeat: no-repeat;
+      background-size:cover;
+      height: 139px;
+      margin: 0 auto;
+    }
+
+    .users-top {
+      width: 90%;
+      background-image: url('data:image/svg+xml;charset=utf-8,<svg width="1440" height="156" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h1440v156H0z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><g mask="url(#b)"><path d="M-5.845 142.308C254.493 0 483.665-35.577 681.673 35.578c297.011 106.73 536.472 92.279 752.482 0 144.006-61.52 144.006 146.903 0 625.271-235.532 101.575-436.707 121.978-603.526 61.208C580.4 630.902 200.12 630.902.438 779.207c-133.123 98.87-135.217-113.43-6.283-636.899z" fill="#F6FBFF"/><path d="M760 120h560v560H760z"/></g></g></svg>');
+      background-repeat: no-repeat;
+      background-size:cover;
+      height: 165px;
+      margin: 0 auto;
+    }
+
+    .users-bottom {
+      width: 90%;
+      background-image: url('data:image/svg+xml;charset=utf-8,<svg width="1440" height="139" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h1440v162H0z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><g mask="url(#b)"><path d="M-5.845-498.692C254.493-641 483.665-676.577 681.673-605.422c297.011 106.73 536.472 92.279 752.482 0 144.006-61.52 144.006 146.903 0 625.271-235.532 101.575-436.707 121.978-603.526 61.208C580.4-10.098 200.12-10.098.438 138.207c-133.123 98.87-135.217-113.43-6.283-636.899z" fill="#F6FBFF"/><path d="M760-521h560V39H760z"/></g></g></svg>');
+      background-repeat: no-repeat;
+      background-size:cover;
+      height: 139px;
+      margin: 0 auto;
+    }
+  }
+
   .grow-together {
     display: flex;
     width: 90%;
     margin: 0 auto;
-    background-image: url('data:image/svg+xml;charset=utf-8,<svg width="1440" height="165" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h1440v165H0z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><g mask="url(#b)" fill="#F6FBFF"><path d="M0 127.6C152.937 41.92 298.933 25.782 437.988 79.187c208.583 80.107 457.536 53.405 594.167 0C1168.785 25.782 1172.696-39.335 1440 30.224c267.304 69.56 0 698.192 0 698.192s-211.887 128.179-591.858 64.09C594.828 749.779 312.114 765.996 0 841.156V127.6z"/></g></g></svg>');
-    background-repeat: no-repeat;
-    background-size:cover;
+    background-color: $neutralBlue;
 
     .illustration-text {
-      width: 40%;
-      font-size: 20px;
-      padding-top: 15%;
+      width: 50%;
+      padding: 15% 23% 0 8%;
       text-align: left;
 
       p {
         padding-top: 7%;
-        line-height: 1.3em;
+        line-height: 1.5em;
       }
     }
+
+    svg {
+      width: 50%;
+    }
+
     .illustration {
       width: 50%;
     }
@@ -146,9 +189,8 @@ $weightMedium: 600;
     padding: 10% 0;
       
     .illustration-text {
-      width: 40%;
-      font-size: 20px;
-      padding-top: 15%;
+      width: 50%;
+      padding: 15% 5% 0 5%;
       text-align: left;
 
       p {
@@ -165,14 +207,11 @@ $weightMedium: 600;
     display: flex;
     width: 90%;
     margin: 0 auto;
-    background-image: url('data:image/svg+xml;charset=utf-8,<svg width="1440" height="139" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h1440v139H0z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><g mask="url(#b)"><path d="M0-574.4c152.937-85.68 298.933-101.818 437.988-48.413 208.583 80.107 457.536 53.405 594.167 0 136.63-53.405 140.541-118.522 407.845-48.963 267.304 69.56 0 698.192 0 698.192s-211.887 128.179-591.858 64.09C594.828 47.779 312.114 63.996 0 139.156V-574.4z" fill="#F6FBFF"/><path d="M750-537h560V23H750z"/></g></g></svg>');
-    background-repeat: no-repeat;
-    background-size:cover;
+    background-color: $neutralBlue;
 
     .illustration-text {
-      width: 40%;
-      font-size: 20px;
-      padding-top: 15%;
+      width: 50%;
+      padding: 15% 8% 0 8%;
       text-align: left;
 
       p {
@@ -189,17 +228,19 @@ $weightMedium: 600;
     padding-top: 15%;
 
     h2 {
+      font-size: 32px;
       margin-bottom: 2%;
     }
 
     button {
-      width: 20%;
+      width: 25%;
       background-color: $primaryColour;
       color: $neutralBlue;
-      line-height: 3em;
+      line-height: 4.5em;
       border: none;
       border-radius: 50px;
       margin-bottom: 4em;
+      font-weight: $weightBold;
     }
   }
 
@@ -224,46 +265,76 @@ $weightMedium: 600;
     text-align: left;
 
     .social {
-      width: 30%;
+      width: 27%;
       margin-left: 10%;
 
       .logo {
         padding-bottom: 1em;
       }
 
-      .logo g {
+      .logo g path {
         fill: $neutralBlue;
       }
 
       .contact {
         display: flex;
-        line-height: 1em;
+
+        p {
+          padding-top: 0;
+        }
 
         .icon {
-          padding-right: 3%;
+          padding-right: 5%;
         }
       }
 
       p{ 
-        padding-bottom: 1em;
+        padding-bottom: 1.5em;
+        padding-top: 0.5em;
+        line-height: 1.5em;
+      }
+
+      a, a:visited {
+        color: $neutralBlue;
+      }
+
+      a:hover {
+        color: $primaryColour;
+      }
+      
+      .socialIcon {
+        font-size: 1.9em;
+        margin-right: 5%;
       }
     }
 
     .newsletter {
-      width: 30%;
-      margin-right: 10%;
+      width: 38%;
+      margin-right: 7%;
 
       h3 {
-        padding-bottom: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 22px;
       }
 
       p {
         padding-bottom: 1em;
+        width: 70%;
+        line-height: 1.5em;
+      }
+
+      .sign-up {
+        display: flex;
+        justify-content: space-between;
       }
 
       input {
         border-radius: 5px;
         width: 65%;
+        margin-right: 3%;
+        border: none;
+        height: 2.5em;
       }
 
       button {
@@ -272,6 +343,8 @@ $weightMedium: 600;
         border-radius: 5px;
         border: 1px solid $primaryColour;
         width: 30%;
+        height: 2.7em;
+        font-weight: $weightBold;
       }
     }
   }
