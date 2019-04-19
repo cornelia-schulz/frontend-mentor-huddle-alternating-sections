@@ -14,22 +14,22 @@
           <p> example@huddle.com</p>
         </div>
         <a href="http://www.facebook.com">
-        <font-awesome-icon
-          :icon="facebook"
-          class="socialIcon"
-        />
+          <font-awesome-icon
+            :icon="facebook"
+            class="socialIcon"
+          />
         </a>
         <a href="http://www.instagram.com">
-        <font-awesome-icon
-          :icon="instagram"
-          class="socialIcon"
-        />
+          <font-awesome-icon
+            :icon="instagram"
+            class="socialIcon"
+          />
         </a>
         <a href="http://www.twitter.com">
-        <font-awesome-icon
-          :icon="twitter"
-          class="socialIcon"
-        />
+          <font-awesome-icon
+            :icon="twitter"
+            class="socialIcon"
+          />
         </a>
       </div>
       <div class="newsletter">

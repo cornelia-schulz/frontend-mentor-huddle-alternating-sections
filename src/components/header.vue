@@ -2,7 +2,16 @@
 <template>
   <header>
     <Logo />
-    <button>Try It Free</button>
+    <button>{{ $t("tryitfree") }}</button>
+    <div>
+      <button @click="changeLanguage('de')">
+        DE
+      </button>
+      |
+      <button @click="changeLanguage('en')">
+        EN
+      </button>
+    </div>
   </header>
 </template>
 
@@ -12,6 +21,11 @@ export default {
   name: 'Header',
   components: {
     Logo
+  },
+  methods: {
+    changeLanguage (lang) {
+      this.$i18n.i18next.changeLanguage(lang)
+    }
   }
 }
 </script>
