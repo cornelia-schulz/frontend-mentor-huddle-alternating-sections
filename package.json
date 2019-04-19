@@ -30,6 +30,9 @@
     "@fortawesome/free-brands-svg-icons": "^5.7.0",
     "@fortawesome/free-solid-svg-icons": "^5.7.0",
     "@fortawesome/vue-fontawesome": "^0.1.5",
+    "@panter/vue-i18next": "^0.15.0",
+    "i18next": "^15.0.9",
+    "upgrade": "^1.1.0",
     "vue": "^2.5.22",
     "vue-router": "^3.0.2"
   },
