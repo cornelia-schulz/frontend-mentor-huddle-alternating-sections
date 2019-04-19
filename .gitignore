@@ -1,6 +1,5 @@
 node_modules
 dist
-static
 npm-debug.log
 bundle.*
 configurations.js

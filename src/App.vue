@@ -1,5 +1,3 @@
-import '../assets/css/app.scss'
-
 <template>
   <div class="container">
     <Header />
@@ -27,3 +25,7 @@ export default {
   }
 }
 </script>
+
+<style  lang='scss'>
+  @import './assets/css/app.scss'
+</style>

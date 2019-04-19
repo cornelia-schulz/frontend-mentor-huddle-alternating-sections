@@ -2,15 +2,17 @@
 <template>
   <header>
     <Logo />
-    <button>{{ $t("tryitfree") }}</button>
-    <div>
-      <button @click="changeLanguage('de')">
-        DE
-      </button>
-      |
-      <button @click="changeLanguage('en')">
-        EN
-      </button>
+    <div class="header-right">
+      <button class="try">{{ $t("tryitfree") }}</button>
+      <div class="language-menu">
+        <button class="lang-selector" @click="changeLanguage('de')">
+          DE
+        </button>
+        <span class="lang-selector">|</span>
+        <button class="lang-selector" @click="changeLanguage('en')">
+          EN
+        </button>
+      </div>
     </div>
   </header>
 </template>
@@ -32,7 +34,3 @@ export default {
   }
 }
 </script>
-
-<style lang='scss'>
-  @import '../assets/css/app.scss'
-</style>
