@@ -16,7 +16,9 @@
 </template>
 
 <script>
+import EventBus from '../../event-bus.js'
 import Logo from '../../static/img/logo.svg'
+
 export default {
   name: 'Header',
   components: {
@@ -24,6 +26,7 @@ export default {
   },
   methods: {
     changeLanguage (lang) {
+      EventBus.$emit('changeLanguage', lang)
       this.$i18n.i18next.changeLanguage(lang)
     }
   }

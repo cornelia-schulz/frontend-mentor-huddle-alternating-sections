@@ -1,20 +1,20 @@
 
 <template>
   <section class="blurb">
-    <h1>Build The Community Your Fans Will Love</h1>
-    <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
-    <button> Get Started For Free</button><br>
+    <h1>{{ $t("buildthecommunity") }}</h1>
+    <p>{{ $t("huddlereimagines") }}</p>
+    <button>{{ $t("getstarted") }}</button><br>
     <CentreImage />
     <div class="figures">
       <div class="left">
         <CommunityImage />
         <p>
           <span class="figure">
-            1.4k+
+            {{ $t("figure1") }}
           </span>
           <br>
           <span class="figure-description">
-            Communities Formed
+            {{ $t("communitiesformed") }}
           </span>
         </p>
       </div>
@@ -22,11 +22,11 @@
         <SpeechImage />
         <p>
           <span class="figure">
-            2.7m+
+            {{ $t("figure2") }}
           </span>
           <br>
           <span class="figure-description">
-            Messages Sent
+            {{ $t("messagessent") }}
           </span>
         </p>
       </div>
@@ -35,6 +35,7 @@
 </template>
 
 <script>
+import EventBus from '../../event-bus.js'
 import CentreImage from '../../static/img/screen-mockups.svg'
 import CommunityImage from '../../static/img/icon-communities.svg'
 import SpeechImage from '../../static/img/icon-messages.svg'
@@ -44,6 +45,11 @@ export default {
     CentreImage,
     CommunityImage,
     SpeechImage
+  },
+  created () {
+    EventBus.$on('changeLanguage', (lang) => {
+      this.$i18n.i18next.changeLanguage(lang)
+    })
   }
 }
 </script>

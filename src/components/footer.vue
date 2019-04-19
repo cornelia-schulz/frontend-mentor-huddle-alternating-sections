@@ -4,14 +4,14 @@
     <footer>
       <div class="social">
         <Logo class="logo" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.</p>
+        <p>{{ $t("loremipsum") }}</p>
         <div class="contact">
           <Phone class="icon" />
-          <p> Phone: +1-543-123-4567</p>
+          <p>{{ $t("phone") }}</p>
         </div>
         <div class="contact">
           <Email class="icon" />
-          <p> example@huddle.com</p>
+          <p>{{ $t("email") }}</p>
         </div>
         <a href="http://www.facebook.com">
           <font-awesome-icon
@@ -33,14 +33,14 @@
         </a>
       </div>
       <div class="newsletter">
-        <h3>NEWSLETTER</h3>
-        <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We'll never send you spam or pass on your email address</p>
+        <h3>{{ $t("newsletter") }}</h3>
+        <p>{{ $t("signuptonewsletter") }}</p>
         <div class="sign-up">
           <input
             type="email"
             name="email"
           >
-          <button>Subscribe</button>
+          <button>{{ $t("subscribe") }}</button>
         </div>
       </div>
     </footer>
@@ -48,6 +48,7 @@
 </template>
 
 <script>
+import EventBus from '../../event-bus.js'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faFacebook, faTwitterSquare, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import Logo from '../../static/img/logo.svg'
@@ -67,6 +68,11 @@ export default {
       instagram: faInstagram,
       twitter: faTwitterSquare
     }
+  },
+  created () {
+    EventBus.$on('changeLanguage', (lang) => {
+      this.$i18n.i18next.changeLanguage(lang)
+    })
   }
 }
 </script>

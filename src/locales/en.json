@@ -1,4 +1,24 @@
 {
     "message": "hello",
-    "tryitfree": "Try It Free"
+    "tryitfree": "Try it free",
+    "readytobuild": "Ready to build your community?",
+    "getstarted": "Get started for free",
+    "buildthecommunity": "Build the community your fans will love",
+    "huddlereimagines": "Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussions",
+    "figure1": "1.4k+",
+    "communitiesformed": "Communities formed",
+    "figure2": "2.7m+",
+    "messagessent": "Messages sent",
+    "loremipsum": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.",
+    "phone": "Phone: +1-543-123-4567",
+    "email": "example@huddle.com",
+    "newsletter": "NEWSLETTER",
+    "signuptonewsletter": "To receive tips on how to grow your community, sign up to our weekly newsletter. We'll never send you spam or pass on your email address",
+    "subscribe": "Subscribe",
+    "growtogether": "Grow together",
+    "meaningfuldiscussions": "Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.",
+    "flowingconversations": "Flowing Conversations",
+    "paginateconversation": "You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.",
+    "yourusers": "Your Users",
+    "notimeatall": "It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately."
 }
