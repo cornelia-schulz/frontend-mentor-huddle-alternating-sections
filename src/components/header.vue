@@ -3,13 +3,23 @@
   <header>
     <Logo />
     <div class="header-right">
-      <button class="try">{{ $t("tryitfree") }}</button>
+      <button class="try">
+        {{ $t("tryitfree") }}
+      </button>
       <div class="language-menu">
-        <button class="lang-selector" @click="changeLanguage('de')">
+        <button
+          class="lang-selector"
+          @click="changeLanguage('de')"
+        >
           DE
         </button>
-        <span class="lang-selector">|</span>
-        <button class="lang-selector" @click="changeLanguage('en')">
+        <span class="lang-selector">
+          |
+        </span>
+        <button
+          class="lang-selector"
+          @click="changeLanguage('en')"
+        >
           EN
         </button>
       </div>
