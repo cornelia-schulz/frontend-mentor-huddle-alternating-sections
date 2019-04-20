@@ -231,7 +231,6 @@ $weightMedium: 600;
     display: flex;
     width: 100%;
     margin: 0 auto;
-    padding: 10% 0;
     height: 416px;
       
     .flowingconversation {
@@ -246,9 +245,6 @@ $weightMedium: 600;
     .illustration-text {
       width: 50%;
       text-align: left;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -317,12 +313,11 @@ $weightMedium: 600;
   }
 
   .footer-top {
-    background-image: url('/static/img/bg-footer-top-desktop');
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 158px;
+    background-image: url('/static/img/bg-footer-top-desktop.png');
+    height: 150px;
     width: 90%;
     margin: 0 auto;
+    background-position-x: -355px;
   }
 
   footer {
