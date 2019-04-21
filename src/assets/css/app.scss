@@ -79,6 +79,7 @@ $weightMedium: 600;
   .blurb {
     width: 90%;
     margin: 0 auto;
+    margin-top: 80px;
 
     h1 {
       margin-bottom: 0;
@@ -413,5 +414,77 @@ $weightMedium: 600;
         height: 2.7em;
         font-weight: $weightBold;
       }
+    }
+  }
+
+  @media (max-width: 450px) {
+    .blurb h1 {
+      font-size: 1.7rem;
+    }
+    .blurb p {
+      width: 100%;
+      font-size: 15px;
+    }
+    .blurb button {
+      width: 75%;
+    }
+    .figures {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .figures .right,
+    .figures .left {
+      width: 100%;
+      text-align: center;
+    }
+    .figures .right .figure-description {
+      padding-left: 0;
+    }
+    .section-wrapper {
+      flex-direction: column;
+    }
+    .section-wrapper .illustration-text {
+      width: 100%;
+    }
+    .section-wrapper .growtogether,
+    .section-wrapper .flowingconversation,
+    .section-wrapper .yourusers {
+      width: 100%;
+    }
+    .illustrations .grow-top {
+      background-image: url('/static/img/bg-section-top-mobile-1.png')
+    }
+    .illustrations .grow-bottom {
+      background-image: url('/static/img/bg-section-bottom-mobile-1.png')
+    }
+    .illustrations .users-top {
+      background-image: url('/static/img/bg-section-top-mobile-2.png')
+    }
+    .illustrations .users-bottom {
+       background-image: url('/static/img/bg-section-bottom-mobile-2.png')
+    }
+    .community button {
+      width: 75%;
+    }
+    footer {
+      flex-direction: column;
+      width: 100%;
+    }
+    .footer .footer-top {
+      background-image: url('/static/img/bg-footer-top-mobile.png');
+      background-position-x: 0;
+      width: 100%;
+      height: 50px;
+    }
+    footer .social {
+      width: 90%;
+      margin: 0 auto;
+    }
+    footer .newsletter {
+      width: 90%;
+      margin: 0 auto;
+    }
+    footer .newsletter p {
+      width: 100%;
     }
   }
