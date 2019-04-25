@@ -16,7 +16,10 @@
             xmlns:xlink="http://www.w3.org/1999/xlink"
             width="1023.46"
             height="837.84"
+            aria-labelledby="growTogetherImg"
+            role="img"
           >
+          <title id="growTogetherImg">An illustrated image showing two people coming together</title>
             <defs>
               <linearGradient
                 id="a"
